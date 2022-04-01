@@ -1,0 +1,1 @@
+Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node -G Visual Studio 16 2019

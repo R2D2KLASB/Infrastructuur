@@ -1,0 +1,30 @@
+[0.078s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\server_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node -G Visual Studio 16 2019
+[0.375s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[3.485s] -- The C compiler identification is MSVC 19.29.30141.0
+[4.860s] -- The CXX compiler identification is MSVC 19.29.30141.0
+[5.078s] -- Detecting C compiler ABI info
+[6.328s] -- Detecting C compiler ABI info - done
+[6.344s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[6.344s] -- Detecting C compile features
+[6.360s] -- Detecting C compile features - done
+[6.375s] -- Detecting CXX compiler ABI info
+[7.578s] -- Detecting CXX compiler ABI info - done
+[7.594s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[7.594s] -- Detecting CXX compile features
+[7.594s] -- Detecting CXX compile features - done
+[7.641s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[8.203s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[8.203s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[10.828s] -- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[10.922s] CMake Error at C:/opt/ros/foxy/x64/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[10.922s]   ament_package_xml() package name 'server_node' in '/package.xml' does not
+[10.922s]   match current PROJECT_NAME 'serverNode'.  You must call project() with the
+[10.922s]   same package name before.
+[10.922s] Call Stack (most recent call first):
+[10.922s]   C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[10.922s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[10.922s] 
+[10.922s] 
+[10.922s] -- Configuring incomplete, errors occurred!
+[10.922s] See also "C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/CMakeFiles/CMakeOutput.log".
+[10.938s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node' returned '1': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\server_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node -G Visual Studio 16 2019
