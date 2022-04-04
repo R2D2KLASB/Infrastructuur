@@ -1,0 +1,32 @@
+[0.125s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\server_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node
+[0.282s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[0.328s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.391s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[0.985s] -- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[1.219s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.219s] -- Added test 'lint_cmake' to check CMake code style
+[1.235s] -- Added test 'xmllint' to check XML markup files
+[1.328s] -- Configuring done
+[1.641s] -- Generating done
+[1.657s] -- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node
+[1.688s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\server_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node
+[1.688s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node --config Release
+[1.985s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[1.985s] Copyright (C) Microsoft Corporation. All rights reserved.
+[1.985s] 
+[2.672s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node' returned '0': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node --config Release
+[2.672s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node --config Release
+[2.813s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/ament_index/resource_index/package_run_dependencies/server_node
+[2.813s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/ament_index/resource_index/parent_prefix_path/server_node
+[2.813s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/environment/ament_prefix_path.bat
+[2.813s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/environment/ament_prefix_path.dsv
+[2.828s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/environment/path.bat
+[2.828s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/environment/path.dsv
+[2.828s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/local_setup.bat
+[2.844s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/local_setup.dsv
+[2.860s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/package.dsv
+[2.875s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/ament_index/resource_index/packages/server_node
+[2.875s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/cmake/server_nodeConfig.cmake
+[2.875s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/cmake/server_nodeConfig-version.cmake
+[2.875s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/package.xml
+[2.969s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node --config Release

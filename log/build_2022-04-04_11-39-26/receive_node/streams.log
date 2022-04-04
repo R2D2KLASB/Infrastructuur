@@ -1,0 +1,41 @@
+[0.234s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node
+[0.406s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[0.437s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.515s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[1.234s] -- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+[2.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.250s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[2.922s] -- Found OpenSSL: C:/opt/ros/foxy/x64/Lib/libcrypto.lib (found version "1.1.1g")  
+[3.187s] -- Found FastRTPS: C:/opt/ros/foxy/x64/include  
+[3.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.656s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[4.687s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.734s] -- Looking for pthread.h
+[5.750s] -- Looking for pthread.h - not found
+[5.750s] -- Found Threads: TRUE  
+[6.640s] -- Configuring done
+[6.812s] -- Generating done
+[6.859s] -- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/receive_node
+[6.890s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node
+[6.890s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node --config Release
+[7.140s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[7.140s] Copyright (C) Microsoft Corporation. All rights reserved.
+[7.140s] 
+[7.609s]   Checking Build System
+[7.797s]   Building Custom Rule C:/Users/coenc/Documents/GitHub/Infrastructuur/src/receive_node/CMakeLists.txt
+[7.922s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node' returned '0': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node --config Release
+[7.922s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node --config Release
+[8.047s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/ament_index/resource_index/package_run_dependencies/receive_node
+[8.047s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/ament_index/resource_index/parent_prefix_path/receive_node
+[8.047s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/environment/ament_prefix_path.bat
+[8.047s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/environment/ament_prefix_path.dsv
+[8.062s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/environment/path.bat
+[8.062s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/environment/path.dsv
+[8.062s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/local_setup.bat
+[8.062s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/local_setup.dsv
+[8.062s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/package.dsv
+[8.078s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/ament_index/resource_index/packages/receive_node
+[8.078s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/cmake/receive_nodeConfig.cmake
+[8.078s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/cmake/receive_nodeConfig-version.cmake
+[8.078s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/package.xml
+[8.109s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node --config Release

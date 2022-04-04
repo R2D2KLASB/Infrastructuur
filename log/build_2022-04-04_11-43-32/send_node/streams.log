@@ -1,0 +1,39 @@
+[0.157s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node
+[0.328s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[0.360s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.438s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[1.047s] -- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[1.282s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.282s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.282s] -- Configured cppcheck include dirs: 
+[1.282s] -- Configured cppcheck exclude dirs and/or files: 
+[1.297s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.297s] -- Configured cpplint exclude dirs and/or files: 
+[1.297s] -- Added test 'lint_cmake' to check CMake code style
+[1.313s] -- Added test 'uncrustify' to check C / C++ code style
+[1.313s] -- Configured uncrustify additional arguments: 
+[1.313s] -- Added test 'xmllint' to check XML markup files
+[1.407s] -- Configuring done
+[1.657s] -- Generating done
+[1.672s] -- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node
+[1.688s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node
+[1.688s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release
+[2.000s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[2.000s] Copyright (C) Microsoft Corporation. All rights reserved.
+[2.000s] 
+[2.610s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node' returned '0': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release
+[2.797s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release
+[2.922s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/ament_index/resource_index/package_run_dependencies/send_node
+[2.922s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/ament_index/resource_index/parent_prefix_path/send_node
+[2.922s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/environment/ament_prefix_path.bat
+[2.938s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/environment/ament_prefix_path.dsv
+[2.938s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/environment/path.bat
+[2.938s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/environment/path.dsv
+[2.938s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/local_setup.bat
+[2.938s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/local_setup.dsv
+[2.938s] -- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/package.dsv
+[2.938s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/ament_index/resource_index/packages/send_node
+[2.938s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/cmake/send_nodeConfig.cmake
+[2.953s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/cmake/send_nodeConfig-version.cmake
+[2.953s] -- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/package.xml
+[2.969s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release

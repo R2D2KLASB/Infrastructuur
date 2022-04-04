@@ -1,0 +1,233 @@
+[0.910s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['c:\\opt\\ros\\foxy\\x64\\Scripts\\colcon', 'build', '--event-handlers', 'console_direct+'][0m
+[0.910s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=['console_direct+'], executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x000001F7E9049370>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x000001F7E9049370>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x000001F7E9049820>)[0m
+[0.969s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.970s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.970s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.970s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.970s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.970s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.970s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\Users\coenc\Documents\GitHub\Infrastructuur'
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.970s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extension 'ignore'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extension 'ignore_ament_install'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extensions ['colcon_pkg']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extension 'colcon_pkg'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extensions ['colcon_meta']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extension 'colcon_meta'
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extensions ['ros']
+[0.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\receive_node) by extension 'ros'
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\receive_node' with type 'ros.ament_cmake' and name 'receive_node'[0m
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extension 'ignore'
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extension 'ignore_ament_install'
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extensions ['colcon_pkg']
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extension 'colcon_pkg'
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extensions ['colcon_meta']
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extension 'colcon_meta'
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extensions ['ros']
+[0.996s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\send_node) by extension 'ros'
+[1.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\send_node' with type 'ros.ament_cmake' and name 'send_node'[0m
+[1.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extension 'ignore'
+[1.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extension 'ignore_ament_install'
+[1.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extensions ['colcon_pkg']
+[1.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extension 'colcon_pkg'
+[1.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extensions ['colcon_meta']
+[1.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extension 'colcon_meta'
+[1.001s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extensions ['ros']
+[1.002s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\server_node) by extension 'ros'
+[1.002s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\server_node' with type 'ros.ament_cmake' and name 'server_node'[0m
+[1.002s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.002s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.002s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.002s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.002s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'cmake_args' from command line to 'None'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'cmake_target' from command line to 'None'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'receive_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.040s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'receive_node' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\build\\receive_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\install\\receive_node', 'merge_install': False, 'path': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\src\\receive_node', 'symlink_install': False, 'test_result_base': None}[0m
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'cmake_args' from command line to 'None'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'cmake_target' from command line to 'None'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'send_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.050s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'send_node' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\build\\send_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\install\\send_node', 'merge_install': False, 'path': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\src\\send_node', 'symlink_install': False, 'test_result_base': None}[0m
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'cmake_args' from command line to 'None'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'cmake_target' from command line to 'None'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'server_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.061s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'server_node' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\build\\server_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\install\\server_node', 'merge_install': False, 'path': 'C:\\Users\\coenc\\Documents\\GitHub\\Infrastructuur\\src\\server_node', 'symlink_install': False, 'test_result_base': None}[0m
+[1.061s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.087s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.087s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node' with build type 'ament_cmake'
+[1.087s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node'
+[1.100s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[1.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.112s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path 'C:\opt\ros\foxy\x64\tools\vcpkg\installed\x64-windows' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[1.192s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node' with build type 'ament_cmake'
+[1.192s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node'
+[1.212s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.274s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\src\server_node' with build type 'ament_cmake'
+[1.274s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\src\server_node'
+[1.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.372s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node[0m
+[1.386s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node[0m
+[1.403s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\server_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node[0m
+[3.000s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node[0m
+[3.004s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release[0m
+[3.079s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\server_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node[0m
+[3.084s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node --config Release[0m
+[3.965s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node' returned '0': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release[0m
+[4.154s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release[0m
+[4.162s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node' returned '0': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node --config Release[0m
+[4.162s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node --config Release[0m
+[4.378s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(server_node)
+[4.380s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\server_node --config Release[0m
+[4.400s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node' for CMake module files
+[4.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node' for CMake config files
+[4.405s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('server_node', 'cmake_prefix_path')
+[4.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\hook\cmake_prefix_path.ps1'
+[4.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\hook\cmake_prefix_path.bat'
+[4.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\hook\cmake_prefix_path.dsv'
+[4.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\bin'
+[4.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\bin'
+[4.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\Scripts'
+[4.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\lib\pkgconfig\server_node.pc'
+[4.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\Lib\site-packages'
+[4.420s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\package.ps1'
+[4.420s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\package.bat'
+[4.424s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\package.dsv'
+[4.424s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\colcon-core\packages\server_node)
+[4.429s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(server_node)
+[4.435s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node' for CMake module files
+[4.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node' for CMake config files
+[4.440s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('server_node', 'cmake_prefix_path')
+[4.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\hook\cmake_prefix_path.ps1'
+[4.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\hook\cmake_prefix_path.bat'
+[4.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\hook\cmake_prefix_path.dsv'
+[4.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\bin'
+[4.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\bin'
+[4.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\Scripts'
+[4.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\lib\pkgconfig\server_node.pc'
+[4.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\Lib\site-packages'
+[4.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\package.ps1'
+[4.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\package.bat'
+[4.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\server_node\package.dsv'
+[4.451s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\coenc\Documents\GitHub\Infrastructuur\install\server_node\share\colcon-core\packages\server_node)
+[4.451s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(send_node)
+[4.474s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node' for CMake module files
+[4.477s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release[0m
+[4.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node' for CMake config files
+[4.480s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('send_node', 'cmake_prefix_path')
+[4.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\hook\cmake_prefix_path.ps1'
+[4.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\hook\cmake_prefix_path.bat'
+[4.490s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\hook\cmake_prefix_path.dsv'
+[4.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\bin'
+[4.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\bin'
+[4.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\Scripts'
+[4.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\lib\pkgconfig\send_node.pc'
+[4.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\Lib\site-packages'
+[4.491s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\package.ps1'
+[4.491s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\package.bat'
+[4.500s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\package.dsv'
+[4.501s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\colcon-core\packages\send_node)
+[4.502s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(send_node)
+[4.522s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node' for CMake module files
+[4.526s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node' for CMake config files
+[4.526s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('send_node', 'cmake_prefix_path')
+[4.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\hook\cmake_prefix_path.ps1'
+[4.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\hook\cmake_prefix_path.bat'
+[4.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\hook\cmake_prefix_path.dsv'
+[4.535s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\bin'
+[4.535s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\bin'
+[4.535s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\Scripts'
+[4.535s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\lib\pkgconfig\send_node.pc'
+[4.535s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\Lib\site-packages'
+[4.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\package.ps1'
+[4.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\package.bat'
+[4.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\send_node\package.dsv'
+[4.549s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node\share\colcon-core\packages\send_node)
+[4.610s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node[0m
+[4.612s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node --config Release[0m
+[5.916s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node' returned '1': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node --config Release[0m
+[5.930s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(receive_node)
+[5.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node' for CMake module files
+[5.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node' for CMake config files
+[5.944s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('receive_node', 'cmake_prefix_path')
+[5.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\share\receive_node\hook\cmake_prefix_path.ps1'
+[5.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\share\receive_node\hook\cmake_prefix_path.bat'
+[5.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\share\receive_node\hook\cmake_prefix_path.dsv'
+[5.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\bin'
+[5.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\bin'
+[5.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\Scripts'
+[5.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\lib\pkgconfig\receive_node.pc'
+[5.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\Lib\site-packages'
+[5.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\share\receive_node\package.ps1'
+[5.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\share\receive_node\package.bat'
+[5.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\share\receive_node\package.dsv'
+[5.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node\share\colcon-core\packages\receive_node)
+[5.980s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[5.980s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[5.995s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[5.999s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[5.999s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.999s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[11.052s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[11.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\local_setup.ps1'
+[11.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\_local_setup_util_ps1.py'
+[11.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\setup.ps1'
+[11.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\local_setup.bat'
+[11.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\_local_setup_util_bat.py'
+[11.077s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\Users\coenc\Documents\GitHub\Infrastructuur\install\setup.bat'
