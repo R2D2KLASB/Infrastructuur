@@ -23,9 +23,6 @@ find_package(std_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-
-
-
 # The path to our header files:
 # make sure the folder inside /include had the same name as the project!
 include_directories(include/${PROJECT_NAME}/)
