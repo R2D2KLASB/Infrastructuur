@@ -1,3 +1,4 @@
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/lib/send_node/send_node.exe
 C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/ament_index/resource_index/package_run_dependencies/send_node
 C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/ament_index/resource_index/parent_prefix_path/send_node
 C:/Users/coenc/Documents/GitHub/Infrastructuur/install/send_node/share/send_node/environment/ament_prefix_path.bat

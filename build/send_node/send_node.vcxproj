@@ -22,31 +22,31 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{36287B45-5CF6-3BD6-A456-15B80315B852}</ProjectGuid>
+    <ProjectGuid>{E1C6C6AE-D9DC-3B10-AF48-C7C0F6E50F4A}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
-    <ProjectName>uninstall</ProjectName>
+    <ProjectName>send_node</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Utility</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Utility</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
-    <ConfigurationType>Utility</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
-    <ConfigurationType>Utility</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
@@ -59,50 +59,205 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">send_node.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">send_node</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">send_node.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">send_node</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">send_node.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">send_node</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">send_node.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">send_node</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opt\ros\foxy\x64\lib\rclcpp.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\libstatistics_collector.lib;C:\opt\ros\foxy\x64\lib\rcl.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rmw_implementation.lib;C:\opt\ros\foxy\x64\lib\rmw.lib;C:\opt\ros\foxy\x64\lib\rcl_logging_spdlog.lib;C:\opt\ros\foxy\x64\lib\spdlog.lib;C:\opt\ros\foxy\x64\lib\rcl_yaml_param_parser.lib;C:\opt\ros\foxy\x64\lib\yaml.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\tracetools.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rcpputils.lib;C:\opt\ros\foxy\x64\lib\rosidl_runtime_c.lib;C:\opt\ros\foxy\x64\lib\rcutils.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/Debug/send_node.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/Debug/send_node.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opt\ros\foxy\x64\lib\rclcpp.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\libstatistics_collector.lib;C:\opt\ros\foxy\x64\lib\rcl.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rmw_implementation.lib;C:\opt\ros\foxy\x64\lib\rmw.lib;C:\opt\ros\foxy\x64\lib\rcl_logging_spdlog.lib;C:\opt\ros\foxy\x64\lib\spdlog.lib;C:\opt\ros\foxy\x64\lib\rcl_yaml_param_parser.lib;C:\opt\ros\foxy\x64\lib\yaml.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\tracetools.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rcpputils.lib;C:\opt\ros\foxy\x64\lib\rosidl_runtime_c.lib;C:\opt\ros\foxy\x64\lib\rcutils.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/Release/send_node.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/Release/send_node.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opt\ros\foxy\x64\lib\rclcpp.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\libstatistics_collector.lib;C:\opt\ros\foxy\x64\lib\rcl.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rmw_implementation.lib;C:\opt\ros\foxy\x64\lib\rmw.lib;C:\opt\ros\foxy\x64\lib\rcl_logging_spdlog.lib;C:\opt\ros\foxy\x64\lib\spdlog.lib;C:\opt\ros\foxy\x64\lib\rcl_yaml_param_parser.lib;C:\opt\ros\foxy\x64\lib\yaml.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\tracetools.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rcpputils.lib;C:\opt\ros\foxy\x64\lib\rosidl_runtime_c.lib;C:\opt\ros\foxy\x64\lib\rcutils.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/MinSizeRel/send_node.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/MinSizeRel/send_node.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\include\send_node;C:\opt\ros\foxy\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opt\ros\foxy\x64\lib\rclcpp.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\libstatistics_collector.lib;C:\opt\ros\foxy\x64\lib\rcl.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rcl_interfaces__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rmw_implementation.lib;C:\opt\ros\foxy\x64\lib\rmw.lib;C:\opt\ros\foxy\x64\lib\rcl_logging_spdlog.lib;C:\opt\ros\foxy\x64\lib\spdlog.lib;C:\opt\ros\foxy\x64\lib\rcl_yaml_param_parser.lib;C:\opt\ros\foxy\x64\lib\yaml.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosgraph_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\statistics_msgs__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\tracetools.lib;C:\opt\ros\foxy\x64\lib\std_msgs__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_generator_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_introspection_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_introspection_c.lib;C:\opt\ros\foxy\x64\lib\builtin_interfaces__rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_cpp.lib;C:\opt\ros\foxy\x64\lib\rosidl_typesupport_c.lib;C:\opt\ros\foxy\x64\lib\rcpputils.lib;C:\opt\ros\foxy\x64\lib\rosidl_runtime_c.lib;C:\opt\ros\foxy\x64\lib\rcutils.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/RelWithDebInfo/send_node.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/RelWithDebInfo/send_node.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\CMakeLists.txt">
@@ -162,17 +317,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\ZERO_CHECK.vcxproj">
       <Project>{ACC32F92-53F2-39D8-99F2-2091B4C84484}</Project>
       <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node_uninstall.vcxproj">
-      <Project>{0610DFC6-AE35-31FD-9B40-90F37B2E9ACD}</Project>
-      <Name>send_node_uninstall</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
