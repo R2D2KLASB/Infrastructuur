@@ -1,0 +1,13 @@
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/ament_index/resource_index/package_run_dependencies/server_node
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/ament_index/resource_index/parent_prefix_path/server_node
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/environment/ament_prefix_path.bat
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/environment/ament_prefix_path.dsv
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/environment/path.bat
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/environment/path.dsv
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/local_setup.bat
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/local_setup.dsv
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/package.dsv
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/ament_index/resource_index/packages/server_node
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/cmake/server_nodeConfig.cmake
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/cmake/server_nodeConfig-version.cmake
+C:/Users/coenc/Documents/GitHub/Infrastructuur/install/server_node/share/server_node/package.xml

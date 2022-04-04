@@ -1,6 +1,15 @@
 :: generated from colcon_core/shell/template/package.bat.em
 @echo off
 
+:: a batch script is able to determine its own path
+:: the prefix is two levels up from the package specific share directory
+for %%p in ("%~dp0..\..") do set "COLCON_CURRENT_PREFIX=%%~fp"
+
+call:call_file "%%COLCON_CURRENT_PREFIX%%\share\server_node\hook\cmake_prefix_path.bat"
+call:call_file "%%COLCON_CURRENT_PREFIX%%\share/server_node/local_setup.bat"
+
+set COLCON_CURRENT_PREFIX=
+
 goto :eof
 
 

@@ -1,0 +1,6 @@
+C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/CMakeFiles/uninstall.dir
+C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/CMakeFiles/server_node_uninstall.dir
+C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/CMakeFiles/INSTALL.dir
+C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/CMakeFiles/RUN_TESTS.dir
+C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/CMakeFiles/ALL_BUILD.dir
+C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/CMakeFiles/ZERO_CHECK.dir

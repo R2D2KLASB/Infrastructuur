@@ -1,0 +1,10 @@
+^C:\USERS\COENC\DOCUMENTS\GITHUB\INFRASTRUCTUUR\SRC\RECEIVE_NODE\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/coenc/Documents/GitHub/Infrastructuur/src/receive_node -BC:/Users/coenc/Documents/GitHub/Infrastructuur/build/receive_node --check-stamp-file C:/Users/coenc/Documents/GitHub/Infrastructuur/build/receive_node/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

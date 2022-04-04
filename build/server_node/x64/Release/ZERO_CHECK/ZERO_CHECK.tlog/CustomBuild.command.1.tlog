@@ -1,0 +1,10 @@
+^C:\USERS\COENC\DOCUMENTS\GITHUB\INFRASTRUCTUUR\BUILD\SERVER_NODE\CMAKEFILES\77C44C00908926D76D9EBF57EBE4FE8F\GENERATE.STAMP.RULE
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/coenc/Documents/GitHub/Infrastructuur/src/server_node -BC:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/server_node.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

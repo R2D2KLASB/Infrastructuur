@@ -1,0 +1,10 @@
+^C:\USERS\COENC\DOCUMENTS\GITHUB\INFRASTRUCTUUR\BUILD\SEND_NODE\CMAKEFILES\1BF70D2196C937FD70540F3E4EB88FE2\GENERATE.STAMP.RULE
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/coenc/Documents/GitHub/Infrastructuur/src/send_node -BC:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/send_node.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
