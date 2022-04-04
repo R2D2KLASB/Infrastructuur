@@ -1,0 +1,53 @@
+[0.063s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\rclcpp': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\rclcpp-master\rclcpp -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\rclcpp -G Visual Studio 16 2019
+[0.172s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[1.578s] -- The C compiler identification is MSVC 19.29.30141.0
+[2.360s] -- The CXX compiler identification is MSVC 19.29.30141.0
+[2.453s] -- Detecting C compiler ABI info
+[3.141s] -- Detecting C compiler ABI info - done
+[3.157s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[3.157s] -- Detecting C compile features
+[3.172s] -- Detecting C compile features - done
+[3.188s] -- Detecting CXX compiler ABI info
+[3.828s] -- Detecting CXX compiler ABI info - done
+[3.844s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[3.844s] -- Detecting CXX compile features
+[3.844s] -- Detecting CXX compile features - done
+[3.860s] -- Looking for pthread.h
+[4.360s] -- Looking for pthread.h - not found
+[4.360s] -- Found Threads: TRUE  
+[4.391s] -- Found ament_cmake_ros: 0.9.2 (C:/opt/ros/foxy/x64/share/ament_cmake_ros/cmake)
+[4.578s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[4.578s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[5.078s] -- Found ament_index_cpp: 1.1.0 (C:/opt/ros/foxy/x64/share/ament_index_cpp/cmake)
+[5.110s] -- Found builtin_interfaces: 1.0.0 (C:/opt/ros/foxy/x64/share/builtin_interfaces/cmake)
+[5.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.235s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[5.422s] -- Found OpenSSL: C:/opt/ros/foxy/x64/Lib/libcrypto.lib (found version "1.1.1g")  
+[5.532s] -- Found FastRTPS: C:/opt/ros/foxy/x64/include  
+[5.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.891s] -- Found libstatistics_collector: 1.0.1 (C:/opt/ros/foxy/x64/share/libstatistics_collector/cmake)
+[6.016s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[6.016s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.141s] -- Found rosgraph_msgs: 1.0.0 (C:/opt/ros/foxy/x64/share/rosgraph_msgs/cmake)
+[7.282s] -- Found Python3: C:/opt/ros/foxy/x64/python.exe (found version "3.8.3") found components: Interpreter 
+[7.344s] -- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[8.219s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[8.282s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found version "3.8.3") 
+[8.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.047s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3.5") 
+[9.063s] -- Found python_cmake_module: 0.8.1 (C:/opt/ros/foxy/x64/share/python_cmake_module/cmake)
+[9.141s] -- Found PythonLibs: C:/opt/ros/foxy/x64/Lib/python38.lib (found suitable version "3.8.3", minimum required is "3.5") 
+[9.141s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[9.141s] -- Using PYTHON_INCLUDE_DIRS: C:/opt/ros/foxy/x64/include/python3.8
+[9.141s] -- Using PYTHON_LIBRARIES: C:/opt/ros/foxy/x64/Lib/python38.lib
+[9.172s] -- Found PythonExtra: .pyd  
+[10.516s] -- Using numpy include directory: C:\opt\ros\foxy\x64\lib\site-packages\numpy\core\include
+[10.516s] CMake Error at test/rclcpp/CMakeLists.txt:16 (rosidl_get_typesupport_target):
+[10.516s]   Unknown CMake command "rosidl_get_typesupport_target".
+[10.516s] 
+[10.532s] 
+[10.532s] -- Configuring incomplete, errors occurred!
+[10.532s] See also "C:/Users/coenc/Documents/GitHub/Infrastructuur/build/rclcpp/CMakeFiles/CMakeOutput.log".
+[10.532s] See also "C:/Users/coenc/Documents/GitHub/Infrastructuur/build/rclcpp/CMakeFiles/CMakeError.log".
+[10.547s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\rclcpp' returned '1': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\rclcpp-master\rclcpp -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\rclcpp -G Visual Studio 16 2019

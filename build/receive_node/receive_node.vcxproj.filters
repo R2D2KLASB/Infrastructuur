@@ -4,9 +4,6 @@
     <ClCompile Include="C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node\src\receive_node.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node\CMakeLists.txt" />

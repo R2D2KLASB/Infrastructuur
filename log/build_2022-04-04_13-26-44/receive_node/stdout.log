@@ -1,0 +1,71 @@
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+-- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/receive_node
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  main.cpp
+C:\opt\ros\foxy\x64\include\rclcpp/any_subscription_callback.hpp(85,1): error C2679: binary '=': no operator found which takes a right-hand operand of type 'CallbackT' (or there is no acceptable conversion) [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+          with
+          [
+              CallbackT=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(1209,15): message : could be 'std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)> &std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)>::operator =(std::nullptr_t) noexcept' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(1184,15): message : or       'std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)> &std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)>::operator =(std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)> &&) noexcept' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\functional(1168,15): message : or       'std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)> &std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)>::operator =(const std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)> &)' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+C:\opt\ros\foxy\x64\include\rclcpp/any_subscription_callback.hpp(85,1): message : while trying to match the argument list '(std::function<void (std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>)>, CallbackT)' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+          with
+          [
+              CallbackT=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>
+          ]
+C:\opt\ros\foxy\x64\include\rclcpp/subscription_factory.hpp(97): message : see reference to function template instantiation 'void rclcpp::AnySubscriptionCallback<CallbackMessageT,AllocatorT>::set<_Ty,0x0>(CallbackT)' being compiled [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+          with
+          [
+              CallbackMessageT=std_msgs::msg::String,
+              AllocatorT=std::allocator<void>,
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>,
+              CallbackT=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>
+          ]
+C:\opt\ros\foxy\x64\include\rclcpp/subscription_factory.hpp(97): message : see reference to function template instantiation 'void rclcpp::AnySubscriptionCallback<CallbackMessageT,AllocatorT>::set<_Ty,0x0>(CallbackT)' being compiled [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+          with
+          [
+              CallbackMessageT=std_msgs::msg::String,
+              AllocatorT=std::allocator<void>,
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>,
+              CallbackT=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>
+          ]
+C:\opt\ros\foxy\x64\include\rclcpp/create_subscription.hpp(149): message : see reference to function template instantiation 'rclcpp::SubscriptionFactory rclcpp::create_subscription_factory<MessageT,_Ty,std::allocator<void>,CallbackMessageT,rclcpp::Subscription<CallbackMessageT,std::allocator<void>,rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT,AllocatorT>>,rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT,AllocatorT>>(CallbackT &&,const rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void>> &,std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT,AllocatorT>>,std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT>>)' being compiled [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+          with
+          [
+              MessageT=std_msgs::msg::String,
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>,
+              CallbackMessageT=std_msgs::msg::String,
+              AllocatorT=std::allocator<void>,
+              CallbackT=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>
+          ]
+C:\opt\ros\foxy\x64\include\rclcpp\node_impl.hpp(104): message : see reference to function template instantiation 'std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String,std::allocator<void>,rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT,AllocatorT>>> rclcpp::create_subscription<MessageT,_Ty,std::allocator<void>,std_msgs::msg::String_<std::allocator<void>>,rclcpp::Subscription<CallbackMessageT,AllocatorT,rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT,AllocatorT>>,rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT,AllocatorT>,rclcpp::Node&>(NodeT,const std::string &,const rclcpp::QoS &,CallbackT &&,const rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void>> &,std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<MessageT,AllocatorT>>)' being compiled [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+          with
+          [
+              CallbackMessageT=std_msgs::msg::String,
+              AllocatorT=std::allocator<void>,
+              MessageT=std_msgs::msg::String,
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>,
+              NodeT=rclcpp::Node &,
+              CallbackT=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>
+          ]
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node\src\main.cpp(10): message : see reference to function template instantiation 'std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String,std::allocator<void>,rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT,AllocatorT>>> rclcpp::Node::create_subscription<std_msgs::msg::String,std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>,std::allocator<void>,std_msgs::msg::String_<std::allocator<void>>,rclcpp::Subscription<CallbackMessageT,AllocatorT,rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT,AllocatorT>>,rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT,AllocatorT>>(const std::string &,const rclcpp::QoS &,CallbackT &&,const rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void>> &,std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<CallbackMessageT,AllocatorT>>)' being compiled [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+          with
+          [
+              CallbackMessageT=std_msgs::msg::String,
+              AllocatorT=std::allocator<void>,
+              CallbackT=std::_Binder<std::_Unforced,void (__cdecl receive_node::* )(std::shared_ptr<std_msgs::msg::String_<std::allocator<void>>>) const,receive_node *>
+          ]

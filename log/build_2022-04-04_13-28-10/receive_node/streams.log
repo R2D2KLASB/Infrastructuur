@@ -1,0 +1,22 @@
+[0.125s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node
+[0.234s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[0.250s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.297s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[0.656s] -- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+[0.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.719s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[1.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.422s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[1.422s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.687s] -- Configuring done
+[1.922s] -- Generating done
+[1.922s] -- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/receive_node
+[1.937s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\receive_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\receive_node
+[1.937s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node --config Release
+[2.094s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[2.109s] Copyright (C) Microsoft Corporation. All rights reserved.
+[2.109s] 
+[2.547s]   main.cpp
+[5.578s] main.obj : error LNK2019: unresolved external symbol "struct rosidl_message_type_support_t const * __cdecl rosidl_typesupport_cpp::get_message_type_support_handle<struct std_msgs::msg::String_<class std::allocator<void> > >(void)" (??$get_message_type_support_handle@U?$String_@V?$allocator@X@std@@@msg@std_msgs@@@rosidl_typesupport_cpp@@YAPEBUrosidl_message_type_support_t@@XZ) referenced in function "private: virtual class std::shared_ptr<class rclcpp::SubscriptionBase> __cdecl std::_Func_impl_no_alloc<class <lambda_7bc6a784aa69a046bc634453ce5b897d>,class std::shared_ptr<class rclcpp::SubscriptionBase>,class rclcpp::node_interfaces::NodeBaseInterface *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class rclcpp::QoS const &>::_Do_call(class rclcpp::node_interfaces::NodeBaseInterface * &&,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class rclcpp::QoS const &)" (?_Do_call@?$_Func_impl_no_alloc@V<lambda_7bc6a784aa69a046bc634453ce5b897d>@@V?$shared_ptr@VSubscriptionBase@rclcpp@@@std@@PEAVNodeBaseInterface@node_interfaces@rclcpp@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@AEBVQoS@6@@std@@EEAA?AV?$shared_ptr@VSubscriptionBase@rclcpp@@@2@$$QEAPEAVNodeBaseInterface@node_interfaces@rclcpp@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBVQoS@6@@Z) [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+[5.578s] C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\Release\receive_node.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\receive_node.vcxproj]
+[5.625s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node' returned '1': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node --config Release

@@ -257,7 +257,7 @@ SSL_EAY_RELEASE:FILEPATH=C:/opt/ros/foxy/x64/Lib/libssl.lib
 TinyXML2_DIR:PATH=C:/opt/ros/foxy/x64/share/tinyxml2
 
 //Path to a library.
-_lib:FILEPATH=C:/opt/ros/foxy/x64/Lib/rosgraph_msgs__rosidl_typesupport_fastrtps_cpp.lib
+_lib:FILEPATH=C:/opt/ros/foxy/x64/Lib/std_msgs__rosidl_typesupport_fastrtps_cpp.lib
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=C:/opt/ros/foxy/x64/share/ament_cmake/cmake
@@ -468,6 +468,9 @@ spdlog_vendor_DIR:PATH=C:/opt/ros/foxy/x64/share/spdlog_vendor/cmake
 
 //The directory containing a CMake configuration file for statistics_msgs.
 statistics_msgs_DIR:PATH=C:/opt/ros/foxy/x64/share/statistics_msgs/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=C:/opt/ros/foxy/x64/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=C:/opt/ros/foxy/x64/share/tracetools/cmake

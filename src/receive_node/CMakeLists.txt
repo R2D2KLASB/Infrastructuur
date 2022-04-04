@@ -18,6 +18,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -34,8 +35,11 @@ include_directories(include/${PROJECT_NAME}/)
 
 # add the executable
 #add_executable(${PROJECT_NAME} ${SOURCES})
-add_executable(receive_node src/main.cpp src/receive_node.cpp)
-ament_target_dependencies(receive_node rclcpp)
+add_executable(receive_node src/main.cpp)
+ament_target_dependencies(receive_node rclcpp std_msgs)
 
+install(TARGETS
+  receive_node
+  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
