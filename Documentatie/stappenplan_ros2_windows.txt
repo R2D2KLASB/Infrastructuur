@@ -1,0 +1,46 @@
+stappenplan ROS 2 voor windows
+
+---------------------------------------------
+
+stap 1: volg de stappen op deze site
+https://ms-iot.github.io/ROSOnWindows/GettingStarted/SetupRos2.html
+
+stap 2:
+clone de 'Infrastructuur' repo van github.
+(let op: package.xml die in elke node map zit cloned die niet automatisch)
+
+stap 3:
+typ "x64 Native Tools Command Prompt for VS 2019" in het start menu en open met administrator rechten.
+
+stap 4:
+Ga naar de geclonede github repo via het 'cd' commando en dan naar de 'install' map.
+voor mij is dat "cd C:\Users\coenc\Documents\GitHub\Infrastructuur\install"
+
+stap 5:
+typ: "setup.bat"
+
+stap 6:
+Als alles goed is kan je nu "ros2" typen en krijg je alle commando's te zien.
+
+---------------------------------------------
+
+om te builden:
+
+stap 1:
+ga nu weer terus naar de hoofdfolder met 'cd ../'
+
+stap 2: 
+verwijder alles behalve de 'install' en de 'src' map
+
+stap 3:
+voer het volgende commando uit:
+rosdep install -i --from-path src --rosdistro foxy -y
+
+stap 4:
+om alles in één keer te builden voer het commando 'colcon build' uit
+
+als alles goed is zijn de packages nu gebuild
+
+stap 5: 
+om een node te starten typ: 'ros2 run <package_name> <arg>'
+dus bijv: 'ros2 run send_node hallo'

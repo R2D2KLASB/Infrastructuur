@@ -1,0 +1,31 @@
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+-- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 2.0.4 (C:/opt/ros/foxy/x64/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/receive_node
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  receive_node.vcxproj -> C:\Users\coenc\Documents\GitHub\Infrastructuur\build\receive_node\Release\receive_node.exe
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/lib/receive_node/receive_node.exe
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/ament_index/resource_index/package_run_dependencies/receive_node
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/ament_index/resource_index/parent_prefix_path/receive_node
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/environment/ament_prefix_path.bat
+-- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/environment/ament_prefix_path.dsv
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/environment/path.bat
+-- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/environment/path.dsv
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/local_setup.bat
+-- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/local_setup.dsv
+-- Installing: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/package.dsv
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/ament_index/resource_index/packages/receive_node
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/cmake/receive_nodeConfig.cmake
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/cmake/receive_nodeConfig-version.cmake
+-- Up-to-date: C:/Users/coenc/Documents/GitHub/Infrastructuur/install/receive_node/share/receive_node/package.xml

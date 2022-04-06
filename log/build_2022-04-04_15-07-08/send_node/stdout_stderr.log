@@ -1,0 +1,19 @@
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+-- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 2.0.4 (C:/opt/ros/foxy/x64/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  main.cpp
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(35,10): error C2039: 'destroy_node': is not a member of 'send_nodes' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(14): message : see declaration of 'send_nodes' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]

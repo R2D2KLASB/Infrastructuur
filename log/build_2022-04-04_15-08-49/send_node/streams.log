@@ -1,0 +1,24 @@
+[0.078s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node
+[0.172s] -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+[0.203s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.250s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[0.641s] -- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+[0.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.703s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[1.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.469s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[1.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.656s] -- Found std_msgs: 2.0.4 (C:/opt/ros/foxy/x64/share/std_msgs/cmake)
+[1.828s] -- Configuring done
+[2.031s] -- Generating done
+[2.047s] -- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node
+[2.047s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node' returned '0': c:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node -DCMAKE_INSTALL_PREFIX=C:\Users\coenc\Documents\GitHub\Infrastructuur\install\send_node
+[2.062s] Invoking command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release
+[2.234s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[2.234s] Copyright (C) Microsoft Corporation. All rights reserved.
+[2.234s] 
+[2.734s]   main.cpp
+[3.484s] C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(35,12): error C2039: 'destroy_node': is not a member of 'rclcpp' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+[3.484s] C:\opt\ros\foxy\x64\include\rclcpp/wait_set.hpp(31): message : see declaration of 'rclcpp' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+[3.484s] C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(35,1): error C3861: 'destroy_node': identifier not found [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+[3.672s] Invoked command in 'C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node' returned '1': CL=/MP c:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node --config Release

@@ -1,0 +1,40 @@
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
+-- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 2.0.4 (C:/opt/ros/foxy/x64/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  main.cpp
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(27,9): warning C4200: nonstandard extension used: zero-sized array in struct/union [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(27,9): message : This member will be ignored by a defaulted constructor or copy/move assignment operator [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(40,34): error C2229: class 'send_nodes' has an illegal zero-sized array [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(19,1): error C2075: 'send_nodes::argv': initialization requires a brace-enclosed initializer list [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(32,1): error C2679: binary '=': no operator found which takes a right-hand operand of type 'char *[]' (or there is no acceptable conversion) [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(3095,42): message : could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(3091,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(3076,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(2965,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(2848,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
+C:\Users\coenc\Documents\GitHub\Infrastructuur\src\send_node\src\main.cpp(32,1): message : while trying to match the argument list '(std::basic_string<char,std::char_traits<char>,std::allocator<char>>, char *[])' [C:\Users\coenc\Documents\GitHub\Infrastructuur\build\send_node\send_node.vcxproj]
