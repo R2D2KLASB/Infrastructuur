@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000000] (-) JobUnselected: {'identifier': 'receive_node'}
-[0.000000] (-) JobUnselected: {'identifier': 'send_node'}
-[0.000000] (-) JobUnselected: {'identifier': 'server_node'}
-[0.000000] (-) EventReactorShutdown: {}

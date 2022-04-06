@@ -1,4 +1,0 @@
-CMake Error at test/rclcpp/CMakeLists.txt:16 (rosidl_get_typesupport_target):
-  Unknown CMake command "rosidl_get_typesupport_target".
-
-

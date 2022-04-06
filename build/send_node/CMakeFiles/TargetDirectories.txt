@@ -1,7 +1,0 @@
-C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/CMakeFiles/uninstall.dir
-C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/CMakeFiles/send_node_uninstall.dir
-C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/CMakeFiles/send_node.dir
-C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/CMakeFiles/INSTALL.dir
-C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/CMakeFiles/RUN_TESTS.dir
-C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/CMakeFiles/ALL_BUILD.dir
-C:/Users/coenc/Documents/GitHub/Infrastructuur/build/send_node/CMakeFiles/ZERO_CHECK.dir
