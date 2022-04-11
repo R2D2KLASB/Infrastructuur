@@ -2,9 +2,27 @@
 #include <functional>
 #include <memory>
 #include <string>
+#include <fstream>
+#include <array>
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
+
+std::string radomFunction() {
+    std::string s = "";
+    std::ifstream file("gcodeSend.txt");
+
+    if (file.good()) {
+        std::string tmp = "";
+        while (std::getline(file, tmp)) {
+            s += tmp + '\n';
+        }
+    }
+    file.close();
+    remove("gcodeSend.txt");
+
+    return s;
+}
 
 using namespace std::chrono_literals;
 
@@ -14,31 +32,26 @@ using namespace std::chrono_literals;
 class send_nodes : public rclcpp::Node
 {
   public:
-
-    send_nodes() : Node("minimal_publisher")
+    send_nodes()
+    : Node("topic"), count_(0)
     {
       publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
-      timer_ = this->create_wall_timer(
-      	500ms, std::bind(&send_nodes::timer_callback, this)
-	  );
+      timer_ = this->create_wall_timer(500ms, std::bind(&send_nodes::timer_callback, this));
     }
-
   private:
-    void timer_callback()
-    {
-		if(count_ < 10){
-			auto message = std_msgs::msg::String();
-			message.data = "test";
-			RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
-			publisher_->publish(message);
-			count_ ++;
-		}else{
-			rclcpp::shutdown();
-		}
+      void timer_callback() {
+          std::string txt = radomFunction();
+          if (txt.size() > 10) {
+              auto message = std_msgs::msg::String();
+              message.data = txt; // met tijd en andere info
+              RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+              publisher_->publish(message);
+              txt = "";
+          }
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-    size_t count_ = 0;
+    size_t count_;
 };
 
 int main(int argc, char * argv[])

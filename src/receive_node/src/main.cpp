@@ -1,28 +1,38 @@
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
+//#include "C:/opt/ros/foxy/x64/include/rclcpp/rclcpp.hpp"
+#include<iostream>
+#include<fstream>
 #include "std_msgs/msg/string.hpp"
+//#include "C:/opt/ros/foxy/x64/include/std_msgs/msg/string.hpp"
 using std::placeholders::_1;
 
 class receive_node : public rclcpp::Node
 {
   public:
-    receive_node
-()
-    : Node("minimal_subscriber")
-    {
+    receive_node(): Node("minimal_subscriber"){
       subscription_ = this->create_subscription<std_msgs::msg::String>(
-      "topic", 10, std::bind(&receive_node
-    ::topic_callback, this, _1));
+      "topic", 10, std::bind(&receive_node::topic_callback, this, _1));
+    }
+
+    void stringToFile(const std_msgs::msg::String::SharedPtr msg) const{
+      std::ofstream gcodeFile;
+      gcodeFile.open("gcodeReceive.txt");
+      gcodeFile.clear();
+      gcodeFile<<msg->data.c_str();
+      gcodeFile.close();
     }
 
   private:
     void topic_callback(const std_msgs::msg::String::SharedPtr msg) const
     {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->data.c_str());
+      RCLCPP_INFO(this->get_logger(), "new message received");
+      stringToFile(msg);
     }
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 };
+
 
 int main(int argc, char * argv[])
 {
