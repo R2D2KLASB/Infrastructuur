@@ -8,7 +8,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
-std::string radomFunction() {
+std::string gcodeToString() {
     std::string s = "";
     std::ifstream file("gcodeSend.txt");
 
@@ -40,7 +40,7 @@ class send_nodes : public rclcpp::Node
     }
   private:
       void timer_callback() {
-          std::string txt = radomFunction();
+          std::string txt = gcodeToString();
           if (txt.size() > 10) {
               auto message = std_msgs::msg::String();
               message.data = txt; // met tijd en andere info
