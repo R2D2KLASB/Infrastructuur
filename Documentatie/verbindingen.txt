@@ -1,0 +1,7 @@
+verbinding maken met de router:
+
+SSID: TekenRobot
+WW: 	teambeter
+
+vaste IP hardware Raspberry:	192.168.1.136	(via putty aan te sturen)
+IP router: 				192.168.1.1

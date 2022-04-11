@@ -1,6 +1,0 @@
--- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
--- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
--- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
--- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
--- Configuring incomplete, errors occurred!
-See also "C:/Users/coenc/Documents/GitHub/Infrastructuur/build/server_node/CMakeFiles/CMakeOutput.log".
